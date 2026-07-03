@@ -1,96 +1,72 @@
-# Healthcare Governance Analytics | Power BI
+# Healthcare Governance Analytics Dashboard (Power BI)
 
-## Project Overview
+## Overview
 
-This Power BI dashboard demonstrates how healthcare governance data can be transformed into executive-ready insights. Using a simulated dataset, the report helps monitor compliance performance, investigate exception patterns, and identify areas of governance risk through interactive visualizations and business storytelling.
+This project analyzes healthcare governance and compliance exception data using Power BI. It focuses on identifying where operational risk occurs, what drives exception patterns, and how governance performance varies across roles, departments, and facilities.
+
+The dataset is designed to simulate realistic healthcare workflow and governance activity.
 
 ---
 
 ## Business Questions
 
-This dashboard answers three key questions:
-
-* **What is happening?** Monitor governance performance and exception trends.
-* **Why is it happening?** Analyze exception patterns across roles, users, and experience levels.
-* **Where does governance risk occur?** Identify departments and resources driving governance activity.
+* What is happening in governance performance and exception trends?
+* Why are exceptions occurring across roles, users, and experience levels?
+* Where is governance risk concentrated across departments and resources?
 
 ---
 
-## Dashboard Pages
+## Key Metrics
 
-### Executive Overview
-
-Provides an executive snapshot of governance performance through:
-
-* Total Events
-* Exception Count
-* Exception Rate
-* Exception Rate by Role
-* Exception Rate by Facility
-
-This page allows leadership to quickly identify organizational areas requiring attention.
+* Total governance events
+* Exception rate
+* Exception count
+* Role-level and facility-level variation in exception rates
 
 ---
 
-### Root Cause Analysis
+## Dashboard Highlights
 
-Investigates the operational drivers behind governance exceptions using:
-
-* Exception Patterns by Role and Experience
-* Top Users by Exception Count
-* Experience Band Filtering
-* Executive Insight Summary
-
-A key finding from this analysis is that exception patterns align more closely with workflow exposure than employee experience alone.
+* Executive-level governance performance overview
+* Role and experience-based exception pattern analysis
+* User-level exception concentration analysis
+* Department and resource-based risk segmentation
+* Operational drivers of compliance variation
 
 ---
 
-### Governance Risk Profile
+## Key Insights
 
-Highlights where governance activity is concentrated by examining:
+**Workflow exposure drives exceptions more than experience**
+Exception patterns vary significantly by role and responsibility, not just tenure or experience level.
 
-* Exception Count by Department
-* Action Type Distribution
-* Resource Type Distribution
-* Facility Filtering
+**Small subset of roles drive disproportionate governance activity**
+A limited number of roles account for a large share of total exceptions.
 
-This page helps identify organizational areas where governance oversight may require additional focus.
+**Governance risk is structurally concentrated**
+Certain departments consistently generate higher exception volumes, indicating targeted oversight opportunities.
 
----
-
-## Key Business Insights
-
-* Governance exceptions are concentrated within a relatively small number of organizational roles.
-* Workflow responsibilities appear to influence exception frequency more than employee tenure.
-* Certain departments consistently generate higher governance activity, indicating targeted compliance opportunities.
-* Executive dashboards can transform operational governance data into concise, actionable decision support.
+**User-level variation highlights operational friction points**
+High exception counts cluster in specific workflow areas rather than evenly across staff.
 
 ---
 
-## Skills Demonstrated
+## Tools Used
 
 * Power BI
+* DAX (Data Analysis Expressions)
+* Data modeling (fact and dimension table structure)
 * Power Query
-* Data Modeling
-* DAX Measures
-* Interactive Dashboard Design
-* KPI Development
-* Business Storytelling
-* Healthcare Operations Analytics
-* Governance & Compliance Reporting
-* Executive Dashboard Design
 
 ---
 
-## Files Included
+## Files
 
-* **Compliance Risk_Portfolio.pbix** — Power BI report
-* **Compliance Risk_Portfolio.pdf** — Exported dashboard for viewing
+- 📄 [Dashboard PDF](./Compliance_Risk_Portfolio.pdf)  
+- 📊 [Power BI Report (.pbix)](./Compliance_Risk_Portfolio.pbix)
 
 ---
 
 ## Disclaimer
 
 This dataset was generated using a Python-based process to mimic realistic healthcare operational and governance workflows. No real patient data or protected health information (PHI) is included.
-
-
