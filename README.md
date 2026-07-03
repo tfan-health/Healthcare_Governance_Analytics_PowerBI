@@ -62,8 +62,8 @@ High exception counts cluster in specific workflow areas rather than evenly acro
 
 ## Files
 
-- 📄 [Dashboard PDF](./Compliance_Risk_Portfolio.pdf)  
-- 📊 [Power BI Report (.pbix)](./Compliance_Risk_Portfolio.pbix)
+- 📄 [Dashboard PDF](./Compliance Risk_Portfolio.pdf)  
+- 📊 [Power BI Report (.pbix)](./Compliance Risk_Portfolio.pbix)
 
 ---
 
